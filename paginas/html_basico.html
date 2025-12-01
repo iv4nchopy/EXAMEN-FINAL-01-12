@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Básico</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ✅ RUTA CORRECTA DEL CSS -->
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <h1>HTML Básico</h1>
+        <p>Demostración práctica de etiquetas HTML</p>
+    </header>
+
+    <!-- Menú principal -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-logo">Inicio</a>
+
+            <button class="nav-toggle" id="navToggle">☰</button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="html_basico.html">HTML Básico</a></li>
+                <li class="nav-item"><a href="productos.html">Productos</a></li>
+                <li class="nav-item"><a href="imagenes.html">Imágenes</a></li>
+                <li class="nav-item"><a href="galeria.html">Galería</a></li>
+                <li class="nav-item"><a href="operaciones.html">Operaciones</a></li>
+                <li class="nav-item"><a href="../index.html">Volver</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- CONTENIDO SOLO PRÁCTICO -->
+    <main class="main-content">
+
+        <!-- ENCABEZADOS -->
+        <section class="section">
+            <h1>Encabezado H1</h1>
+            <h2>Encabezado H2</h2>
+            <h3>Encabezado H3</h3>
+            <h4>Encabezado H4</h4>
+        </section>
+
+        <!-- PÁRRAFOS Y TEXTO -->
+        <section class="section">
+            <p>Este es un párrafo usando la etiqueta &lt;p&gt;.</p>
+            <p><strong>Texto en negrita</strong> con la etiqueta &lt;strong&gt;.</p>
+            <p><i>Texto en cursiva</i> con la etiqueta &lt;i&gt;.</p>
+        </section>
+
+        <!-- LISTAS -->
+        <section class="section">
+            <h3>Lista Desordenada</h3>
+            <ul>
+                <li>Elemento A</li>
+                <li>Elemento B</li>
+                <li>Elemento C</li>
+            </ul>
+
+            <h3>Lista Ordenada</h3>
+            <ol>
+                <li>Primero</li>
+                <li>Segundo</li>
+                <li>Tercero</li>
+            </ol>
+        </section>
+
+        <!-- ENLACE -->
+        <section class="section">
+            <h3>Enlace</h3>
+            <a href="../index.html" class="btn-card">Volver al Inicio</a>
+        </section>
+
+        <!-- IMAGEN -->
+        <section class="section">
+            <h3>Imagen</h3>
+            <img src="../statics/images/imagen1.jpg" alt="Imagen de ejemplo" width="300">
+        </section>
+
+        <!-- TABLA -->
+        <section class="section">
+            <h3>Tabla</h3>
+            <table border="1">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                </tr>
+                <tr>
+                    <td>Ana</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>Carlos</td>
+                    <td>22</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- FORMULARIO -->
+        <section class="section">
+            <h3>Formulario</h3>
+            <form>
+                <label>Nombre:</label>
+                <input type="text" placeholder="Escribe tu nombre"><br><br>
+
+                <label>Correo:</label>
+                <input type="email" placeholder="correo@email.com"><br><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>Proyecto Programación Web - HTML Básico</p>
+    </footer>
+
+    <!-- JS para menú -->
+    <script src="../js/bienvenida.js"></script>
+
+</body>
+</html>
